@@ -21,15 +21,15 @@ var mockRequest = function(options, cb){
 				"protocol":"https:",
 				"slashes":true,
 				"auth":"admin:admin",
-				"host":"tower-1.innovation.labs.redhat.com",
+				"host":"tower-2.innovation.labs.redhat.com",
 				"port":443,
-				"hostname":"tower-1.innovation.labs.redhat.com",
+				"hostname":"tower-2.innovation.labs.redhat.com",
 				"hash":null,
 				"search":null,
 				"query":null,
 				"pathname":"/api/v1/job_templates/7/launch/",
 				"path":"/api/v1/job_templates/7/launch/",
-				"href":"https://admin:admin@tower-1.innovation.labs.redhat.com/api/v1/job_templates/7/launch/"
+				"href":"https://admin:admin@tower-2.innovation.labs.redhat.com/api/v1/job_templates/7/launch/"
 			},
 			"method":"POST",
 			"headers":{
@@ -41,7 +41,7 @@ var mockRequest = function(options, cb){
   console.log(options.json.extra_vars.stack_configuration);
   if(options.json.extra_vars.stack_configuration.project_name !== 'testproject'){
     cb('Incorrect project_name');
-  }else if (options.url == 'https://admin:admin@tower-1.innovation.labs.redhat.com/api/v1/job_templates/8/launch/'){
+  }else if (options.url == 'https://admin:admin@tower-2.innovation.labs.redhat.com/api/v1/job_templates/8/launch/'){
 		cb(null, successResponse, successResponse.body);
 	} else {
 		cb('incorrect url', null);
