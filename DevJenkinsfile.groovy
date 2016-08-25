@@ -4,7 +4,7 @@ developmentPipeline{
     buildTool = 'node-0.10'
     ocHost = 'env3-1-master.innovation.labs.redhat.com'
     projectName = 'infographic'
-    appName = 'infographic-node-app'
+    appName = 'node-app'
     qualityScanCommand = 'run sonar qube'
     dockerRegistry = 'registry.env3-1.innovation.labs.redhat.com'
 }

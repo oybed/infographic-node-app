@@ -3,7 +3,7 @@ releasePipeline{
     buildTool = 'node-0.10'
     ocHost = 'env3-1-master.innovation.labs.redhat.com'
 	dockerRegistry = 'registry.env3-1.innovation.labs.redhat.com'
-    appName = 'infographic-node-app'
+    appName = 'node-app'
     
 	envs = [
 		[name: 'Dev', projectName: 'infographic-dev'],
