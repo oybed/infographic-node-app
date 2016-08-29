@@ -5,8 +5,8 @@ releasePipeline{
     dockerRegistry = 'registry.apps.env2-1.innovation.labs.redhat.com'
     appName = 'node-app'
     envs = [
-        [name: 'Dev', projectName: 'infographic-dev'],
-        [name: 'Stage', projectName: 'infographic-stage' ],
-        [name: 'Demo', projectName: 'infographic-demo' ]
+        [name: 'Dev', projectName: 'ig-dev'],
+        [name: 'Stage', projectName: 'ig-stage' ],
+        [name: 'Demo', projectName: 'ig-demo' ]
    ]
 }
