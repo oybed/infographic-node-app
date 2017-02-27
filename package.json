@@ -22,8 +22,5 @@
     "mocha": "^2.5.1",
     "proxyquire": "^1.7.9",
     "should": ">= 0.0.1"
-  },
-  "publishConfig": {
-    "registry": "http://cicd.env1.fsi.innovation.redhat.com/nexus/content/repositories/npm-internal/"
   }
 }
